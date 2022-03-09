@@ -1,0 +1,52 @@
+/* *{
+    border: 2px solid green;
+    padding: auto;
+    margin: 10px;
+} */
+
+body {
+    background-color: rgb(159, 170, 170);
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* margin: 10px; */
+}
+
+.top {
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 25px;
+}
+
+.playerHands {
+    font-size: 25px;
+    justify-content: space-evenly;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+button {
+    background-color: aquamarine;
+    border: 0;
+    border-radius: 20px;
+    font-size: 25px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.gameArea {
+    display: flex;
+    flex-direction: column;
+}
